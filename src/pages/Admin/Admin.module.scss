@@ -1,0 +1,28 @@
+.adminContent {
+  min-height: calc(100vh - 177px);
+}
+.add_product_form {
+  max-width: 600px;
+  min-width: 600px;
+  margin: auto;
+
+  h2 {
+    text-align: center;
+  }
+  label,
+  input {
+    width: 100%;
+    display: block;
+  }
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 20px;
+  }
+  input {
+    padding: 7px 15px;
+    outline: 0;
+    border: 1px solid (--gray-2);
+  }
+}

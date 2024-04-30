@@ -1,0 +1,19 @@
+.user {
+  text-align: right;
+  font-size: 18px;
+  line-height: 26px;
+  padding-right: 25px;
+  margin-right: 15px;
+  color: black !important;
+  border-right: 1px solid var(--favoris);
+
+  a {
+    display: block;
+    color: var(--favoris);
+    font-size: 18px;
+    text-underline-offset: 4px;
+  }
+  span {
+    font-weight: 500;
+  }
+}
